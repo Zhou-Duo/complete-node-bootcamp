@@ -1,0 +1,11 @@
+/** 
+* Paste one or more documents here
+*/
+{
+  "_id": {
+    "$oid": "63364d5ef9d5826cc286f258"
+  },
+  "name": "The Forest Hiker",
+  "price": 297,
+  "rating": "4.7"
+}
