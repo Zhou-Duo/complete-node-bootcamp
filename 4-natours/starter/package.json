@@ -45,6 +45,7 @@
     "mongoose": "^5.13.15",
     "morgan": "^1.10.0",
     "ms": "^2.0.0",
+    "ndb": "^1.1.5",
     "negotiator": "^0.6.3",
     "object-inspect": "^1.12.2",
     "on-finished": "^2.4.1",
@@ -71,7 +72,8 @@
   },
   "scripts": {
     "start:dev": "nodemon server.js",
-    "start:prod": "NODE_ENV=production nodemon server.js"
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js"
   },
   "author": "Zhou Xinrui",
   "license": "ISC",
